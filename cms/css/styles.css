@@ -1,0 +1,177 @@
+body						{margin: 0 auto; background: #276F8E url('../imgs/light_ray.jpg') no-repeat center top; font-family: Helvetica, Arial; font-size: 13px; color: #EAEAEA;}
+#page						{margin: auto; width: 950px; height: auto;}
+#head						{margin: auto; width: auto; height: 180px; background:url('../imgs/it_event_text.png') no-repeat center top;}
+#login_content_off			{margin: 100px auto 0 auto; width: 400px; height: 162px; padding: 0 0 0 0; font-family: Helvetica, Arial; font-size: 12px; color: #A0A0A0;}
+#login_content_on			{float: right; font-family: Helvetica, Georgia, Verdana; font-size: 12px; color: #EAEAEA;}
+#login_content_on a:link	{text-decoration: underline; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #EAEAEA;}
+#login_content_on a:visited	{text-decoration: underline; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #EAEAEA;}
+#login_content_on a:hover	{text-decoration: underline; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #BFBFBF;}
+#login_content_on a:active	{text-decoration: underline; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #EAEAEA;}
+.login_err					{margin: 0 80px 0 0; font-family: Helvetica, Arial; font-size: 12px; color: #FF9598; float: right;}
+
+#slot						{width: 100px; height: 162px; background:url('../imgs/slot.png') no-repeat left top; float: left;}
+.login						{margin: 45px 0 0 0; width: 210px; height: 100px; list-style-type: none; float: left;}
+.login li					{width: 210px; line-height: 1.0em;}
+.s_button					{margin: 76px 0 0 0;width: 42px; height: 21px; border: none; background:url('../imgs/cms_submit.png') no-repeat left top; cursor: pointer;}
+.off_button					{margin: 0 0 0 12px; width: 22px; height: 22px; border: none; background:url('../imgs/off.png') no-repeat left top; cursor: pointer;}
+#stnummer					{width: 206px; height: 32px; background:url('../imgs/input.png') no-repeat left top; border: none; text-align: center; color: #EAEAEA;}
+#password					{width: 206px; height: 32px; background:url('../imgs/input.png') no-repeat left top; border: none; text-align: center; color: #EAEAEA;}
+
+.cms_titel					{font-family: Helvetica, Georgia, Verdana; font-size: 14px; color: #CAE4F0;}
+
+/* Velden en error opmaak van registreren formulier */
+#register_logo				{margin: -20px 0 0 0; width: 64px; height: 64px; position: absolute; background:url('../imgs/register.png') no-repeat left top;}
+
+.register-div				{margin: auto; padding: 30px 10px 10px 10px; width: 580px; background-color: #F1F8F9; 
+							-moz-border-radius: 10px; 
+							-webkit-border-radius: 10px;
+							border-radius: 10px;				/* Ronde randjes voor IE */
+							behavior: url(../border-radius.htc);	/* Ronde randjes voor IE */
+							border: 2px solid #B2CCCC;}
+
+.register-div .submit		{margin-left: 155px; margin-top: 10px; width: 32px; height: 25px; border: none; background:url('../imgs/send.png') no-repeat left top;}
+
+.register-div .label		{font-family: Helvetica, Arial; font-size: 12px; color: #A0A0A0; display: block; float: left; width: 150px; text-align: right; margin-right: 5px;}
+
+.register-div .form-row		{padding: 5px 0; clear: both; width: 700px;}
+
+.register-div label.error	{width: 250px; display: block; float: left; font-family: Helvetica, Georgia, Verdana; font-size: 12px; color: #FF9598; padding-left: 10px;}
+
+.register-div input[type=text], select, textarea {width: 250px; float: left;}
+.confirm_pass				{width: 250px; float: left;}	
+
+.register-div textarea		{height: 70px;}
+
+.output_text				{margin: 10px auto 0 auto; width: 600px;}
+/* Einde velden en error opmaak van registreren formulier*/
+
+/* Div content met pagina gegevens */
+#content					{margin: 30px 0 0 0; padding: 10px; width: 950px;}
+/* Einde div content met pagina gegevens */
+
+/* Gebruikers informatie weergave */
+.user_info					{border-collapse: collapse; border: none; margin: 5px;}
+.user_info td				{border-bottom: 1px dotted #C0C0C0; width: 80px; padding: 10px 5px 5px 5px;}
+/* Einde gebruikers informatie weergave */
+
+/* Evenementen opmaak */
+#event_link					{width: 30px; height: 33px; background:url('../imgs/new_event.png') no-repeat center top;}
+.events-div					{margin: 50px 0 0 0; padding: 10px 10px 10px 10px; width: 900px; background-color: #F1F8F9; 
+							-moz-border-radius: 10px; 
+							-webkit-border-radius: 10px; 
+							border-radius: 10px;				/* Ronde randjes voor IE */
+							behavior: url(border-radius.htc);	/* Ronde randjes voor IE */
+							border: 2px solid #B2CCCC;}
+.events_list				{list-style-type: none; margin: 0; padding: 0;}
+.events_list li				{padding: 5px 0 5px 0; border-bottom: 1px dotted #A2A2A2;}
+.events_list li a:link		{text-decoration: none; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #818181;}
+.events_list li a:visited	{text-decoration: none; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #818181;}
+.events_list li a:hover		{text-decoration: underline; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #A2A2A2;}
+.events_list li a:active	{text-decoration: none; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #818181;}
+
+.event_titel				{font-family: Helvetica, Arial; font-size: 16px; color: #EAEAEA;}
+#event_info					{width: 900px; margin: 20px 0 0 0; padding: 10px; background-color: #2D7EA2;
+							-moz-border-radius: 10px; 
+							-webkit-border-radius: 10px; 
+							border-radius: 10px;				/* Ronde randjes voor IE */
+							behavior: url(border-radius.htc);	/* Ronde randjes voor IE */
+							border: 1px solid #379CC8;
+							}
+#event_info ul				{list-style-type: none; padding: 0;}
+#event_info ul li			{padding: 5px 0 5px 0; border-bottom: 1px dotted #81C0DC;}
+#event_info ul li a:link	{text-decoration: none; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #AAEAFF;}
+#event_info ul li a:visited	{text-decoration: none; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #AAEAFF;}
+#event_info ul li a:hover	{text-decoration: underline; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #D9F5FF;}
+#event_info ul li a:active	{text-decoration: none; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #AAEAFF;}
+.datum_e					{width: 65px; margin: 0 5px 0 0;}
+
+#add_event_form				{width: 330px; padding: 10px; background-color: #2D7EA2;
+							-moz-border-radius: 10px; 
+							-webkit-border-radius: 10px; 
+							border-radius: 10px;				/* Ronde randjes voor IE */
+							behavior: url(border-radius.htc);	/* Ronde randjes voor IE */
+							border: 1px solid #379CC8;
+							}
+
+#file_upload_form			{margin: 50px 0 0 0; width: 330px; padding: 10px; background-color: #2D7EA2;
+							-moz-border-radius: 10px; 
+							-webkit-border-radius: 10px; 
+							border-radius: 10px;				/* Ronde randjes voor IE */
+							behavior: url(border-radius.htc);	/* Ronde randjes voor IE */
+							border: 1px solid #379CC8;
+							}
+
+.delete_btn					{margin: -20px 0 0 0; float: right;}
+/* Einde evenementen opmaak */
+
+/* Opmaak upload album formulier */
+#upload_link				{width: 32px; height: 32px; background:url('../imgs/upload.png') no-repeat center top;}
+.new_album_btn				{width: 55; height: 32px; font-family: Helvetica, Georgia, Verdana; font-size: 12px; color: #EAEAEA; font-weight: bold; 
+							background:url('../imgs/add_album.png') no-repeat left top; padding: 0 0 0 35px; border: none; margin: 0 0 20px 0;}
+.album_select				{width: 150px;}
+#album_form					{width: 330px; padding: 10px; background-color: #2D7EA2;
+							-moz-border-radius: 10px; 
+							-webkit-border-radius: 10px; 
+							border-radius: 10px;				/* Ronde randjes voor IE */
+							behavior: url(border-radius.htc);	/* Ronde randjes voor IE */
+							border: 1px solid #379CC8;
+							}
+/* Einde opmaak upload album formulier */
+
+/* Opmaak nieuwe album aanmaken */
+#new-album					{margin: 100px 0 0 0; width: 360px; padding: 10px; background-color: #2D7EA2;
+							-moz-border-radius: 10px; 
+							-webkit-border-radius: 10px; 
+							border-radius: 10px;				/* Ronde randjes voor IE */
+							behavior: url(border-radius.htc);	/* Ronde randjes voor IE */
+							border: 1px solid #379CC8;
+							}
+.datum						{width: 65px;}
+
+label.error					{width: 250px; font-family: Helvetica, Georgia, Verdana; font-size: 12px; color: #FF9598; padding-left: 10px;}
+/* Einde opmaak nieuwe album aanmaken */
+
+/* Opmaak gallerij albums */
+#gallery-div					{margin: 50px 0 0 0; padding: 10px 10px 10px 10px; width: 900px; background-color: #F1F8F9; 
+								-moz-border-radius: 10px; 
+								-webkit-border-radius: 10px; 
+								border-radius: 10px;				/* Ronde randjes voor IE */
+								behavior: url(border-radius.htc);	/* Ronde randjes voor IE */
+								border: 2px solid #B2CCCC;}
+#gallery-div ul					{list-style-type: none; margin: 0; padding: 0;}
+#gallery-div ul	li				{padding: 5px 0 5px 0; border-bottom: 1px dotted #A2A2A2;}
+#gallery-div ul li a:link		{text-decoration: none; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #818181;}
+#gallery-div ul li a:visited	{text-decoration: none; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #818181;}
+#gallery-div ul li a:hover		{text-decoration: underline; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #A2A2A2;}
+#gallery-div ul li a:active		{text-decoration: none; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #818181;}
+
+.thumb_gallery					{list-style-type: none; margin: 20px 0 0 0; padding: 0;}
+.thumb_gallery li				{float: left; padding: 0 10px 0 0;}
+.thumb_gallery li a	img			{border: 1px solid #3394BD;}
+/* Einde opmaak gallerij albums */
+
+/* Opmaak paginabeheer */
+#page_editor_div				{margin: 50px 0 0 0; padding: 10px 10px 10px 10px; width: 900px; background-color: #F1F8F9; color: #818181;
+								-moz-border-radius: 10px; 
+								-webkit-border-radius: 10px; 
+								border-radius: 10px;				/* Ronde randjes voor IE */
+								behavior: url(border-radius.htc);	/* Ronde randjes voor IE */
+								border: 2px solid #B2CCCC;}
+#pages_div						{margin: 0 0 50px 0;}
+#pages_div a:link				{text-decoration: none; font-family: Helvetica, Arial; font-weight: bold; color: #818181;}
+#pages_div a:visited			{text-decoration: none; font-family: Helvetica, Arial; font-weight: bold; color: #818181;}
+#pages_div a:hover				{text-decoration: underline; font-family: Helvetica, Arial; font-weight: bold; color: #A2A2A2;}
+#pages_div a:active				{text-decoration: none; font-family: Helvetica, Arial; font-weight: bold; color: #818181;}
+/* Einde paginabeheer */
+
+#page_inschr_div				{margin: 50px 0 0 0; padding: 10px 10px 10px 10px; width: 900px; background-color: #F1F8F9; color: #818181;
+								-moz-border-radius: 10px; 
+								-webkit-border-radius: 10px; 
+								border-radius: 10px;				/* Ronde randjes voor IE */
+								behavior: url(border-radius.htc);	/* Ronde randjes voor IE */
+								border: 2px solid #B2CCCC;}
+#page_inschr_div li				{list-style-type: none; padding: 5px 0 5px 0; border-bottom: 1px dotted #818181;}
+#page_inschr_div a:link			{text-decoration: none; font-family: Helvetica, Arial; font-weight: bold; color: #818181;}
+#page_inschr_div a:visited		{text-decoration: none; font-family: Helvetica, Arial; font-weight: bold; color: #818181;}
+#page_inschr_div a:hover		{text-decoration: underline; font-family: Helvetica, Arial; font-weight: bold; color: #A2A2A2;}
+#page_inschr_div a:active		{text-decoration: none; font-family: Helvetica, Arial; font-weight: bold; color: #818181;}

@@ -1,0 +1,151 @@
+body						{margin: 0 auto; background-color: #F3F3F3; font-family: Helvetica, Arial; font-size: 13px; color: #818181;}
+#page						{margin: auto; width: 950px; height: auto;}
+#head						{margin: auto; width: auto; height: 145px; background: url('../imgs/itevent_logo.png') top left no-repeat;}
+#login_content_off			{width: 480px; float: right; font-family: Helvetica, Arial; font-size: 12px; color: #A0A0A0;}
+#login_content_on			{float: right; font-family: Helvetica, Georgia, Verdana; font-size: 12px; color: #A0A0A0;}
+#login_content_on a:link	{text-decoration: underline; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #A0A0A0;}
+#login_content_on a:visited	{text-decoration: underline; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #A0A0A0;}
+#login_content_on a:hover	{text-decoration: underline; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #BFBFBF;}
+#login_content_on a:active	{text-decoration: underline; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #A0A0A0;}
+.login_err					{font-family: Helvetica, Arial; font-size: 12px; color: #FF9598;}
+#home_tekst					{margin: 0 0 20px 0;}
+
+.login						{list-style-type: none;}
+.login li					{float: left; line-height: 1.8em;}
+.s_button					{margin: -4px 0 0 12px; width: 30px; height: 30px; border: none; background:url('../imgs/submit.png') no-repeat left top; cursor: pointer;}		
+.off_button					{margin: 0 0 0 12px; width: 28px; height: 28px; border: none; background:url('../imgs/off.png') no-repeat left top;}
+.pass_img					{margin: 0 0 0 18px;}
+
+/* Velden en error opmaak van contact formulier */
+#mail_logo					{margin: -30px 0 0 0;width: 64px; height: 64px; position: absolute; background:url('../imgs/mail.png') no-repeat left top;}
+
+.form-div					{margin: 50px 0 0 0; padding: 30px 10px 10px 10px; width: 580px; background-color: #F1F8F9; 
+							-moz-border-radius: 10px; 
+							-webkit-border-radius: 10px; 
+							border-radius: 10px;				/* Ronde randjes voor IE */
+							behavior: url(border-radius.htc);	/* Ronde randjes voor IE */
+							border: 2px solid #B2CCCC;}
+
+.form-div .submit			{margin-left: 155px; margin-top: 10px; width: 32px; height: 25px; border: none; background:url('../imgs/send.png') no-repeat left top;}
+
+.form-div .label			{font-family: Helvetica, Arial; font-size: 12px; color: #A0A0A0; display: block; float: left; width: 150px; text-align: right; margin-right: 5px;}
+
+.form-div .form-row			{padding: 5px 0; clear: both; width: 700px;}
+
+.form-div label.error		{width: 250px; display: block; float: left; font-family: Helvetica, Arial; font-size: 12px; color: #FF9598; padding-left: 10px;}
+
+.form-div input[type=text], select, textarea {width: 250px; float: left;}
+
+.form-div textarea			{height: 70px;}
+/* Einde velden en error opmaak van contact formulier*/
+
+/* Velden en error opmaak van registreren formulier */
+#register_logo				{margin: -20px 0 0 0; width: 64px; height: 64px; position: absolute; background:url('../imgs/register.png') no-repeat left top;}
+
+.register-div				{margin: 50px 0 0 0; padding: 30px 10px 10px 10px; width: 580px; background-color: #F1F8F9; 
+							-moz-border-radius: 10px; 
+							-webkit-border-radius: 10px;
+							border-radius: 10px;				/* Ronde randjes voor IE */
+							behavior: url(border-radius.htc);	/* Ronde randjes voor IE */
+							border: 2px solid #B2CCCC;}
+
+.register-div .submit		{margin-left: 155px; margin-top: 10px; width: 32px; height: 25px; border: none; background:url('../imgs/send.png') no-repeat left top;}
+
+.register-div .label		{font-family: Helvetica, Arial; font-size: 12px; color: #A0A0A0; display: block; float: left; width: 150px; text-align: right; margin-right: 5px;}
+
+.register-div .form-row		{padding: 5px 0; clear: both; width: 700px;}
+
+.register-div label.error	{width: 250px; display: block; float: left; font-family: Helvetica, Georgia, Verdana; font-size: 12px; color: #FF9598; padding-left: 10px;}
+
+.register-div input[type=text], select, textarea {width: 250px; float: left;}
+.confirm_pass				{width: 250px; float: left;}	
+
+.register-div textarea		{height: 70px;}
+/* Einde velden en error opmaak van registreren formulier*/
+
+/* Div content met pagina gegevens */
+#content					{margin: 50px 0 0 0; padding: 10px;width: 950px;}
+/* Einde div content met pagina gegevens */
+
+/* Gebruikers informatie weergave */
+.user_info					{border-collapse: collapse; border: none; margin: 5px;}
+.user_info td				{border-bottom: 1px dotted #C0C0C0; width: 80px; padding: 10px 5px 5px 5px;}
+/* Einde gebruikers informatie weergave */
+
+/* Evenementen opmaak */
+.events-div					{margin: 50px 0 0 0; padding: 10px 10px 10px 10px; width: 900px; background-color: #F1F8F9; 
+							-moz-border-radius: 10px; 
+							-webkit-border-radius: 10px; 
+							border-radius: 10px;				/* Ronde randjes voor IE */
+							behavior: url(border-radius.htc);	/* Ronde randjes voor IE */
+							border: 2px solid #B2CCCC;}
+.events_list				{list-style-type: none; margin: 0; padding: 0;}
+.events_list li				{padding: 5px 0 5px 0; border-bottom: 1px dotted #A2A2A2;}
+.events_list li a:link		{text-decoration: none; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #818181;}
+.events_list li a:visited	{text-decoration: none; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #818181;}
+.events_list li a:hover		{text-decoration: underline; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #A2A2A2;}
+.events_list li a:active	{text-decoration: none; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #818181;}
+
+.event_titel				{font-family: Helvetica, Arial; font-size: 16px; color: #818181;}
+#event_info					{width: 900px; margin: 20px 0 0 0; padding: 10px; background-color: #F8F8F8;
+							-moz-border-radius: 10px; 
+							-webkit-border-radius: 10px; 
+							border-radius: 10px;				/* Ronde randjes voor IE */
+							behavior: url(border-radius.htc);	/* Ronde randjes voor IE */
+							border: 1px solid #E6E6E6;
+							}
+#event_info ul				{list-style-type: none; padding: 0;}
+#event_info ul li			{padding: 5px 0 5px 0; border-bottom: 1px dotted #A2A2A2;}
+#event_info ul li a:link	{text-decoration: none; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #70CBE9;}
+#event_info ul li a:visited	{text-decoration: none; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #70CBE9;}
+#event_info ul li a:hover	{text-decoration: underline; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #1F9EC9;}
+#event_info ul li a:active	{text-decoration: none; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #70CBE9;}
+
+#inschrijf-div				{float: right;}
+.inschrijf_btn				{}
+.uitschrijf_btn				{margin: 0 0 0 800px; position: relative;}
+/* Einde evenementen opmaak */
+
+/* Opmaak gallerij albums */
+#gallery-div					{margin: 50px 0 0 0; padding: 10px 10px 10px 10px; width: 900px; background-color: #F1F8F9; 
+								-moz-border-radius: 10px; 
+								-webkit-border-radius: 10px; 
+								border-radius: 10px;				/* Ronde randjes voor IE */
+								behavior: url(border-radius.htc);	/* Ronde randjes voor IE */
+								border: 2px solid #B2CCCC;}
+#gallery-div ul					{list-style-type: none; margin: 0; padding: 0;}
+#gallery-div ul	li				{padding: 5px 0 5px 0; border-bottom: 1px dotted #A2A2A2;}
+#gallery-div ul li a:link		{text-decoration: none; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #818181;}
+#gallery-div ul li a:visited	{text-decoration: none; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #818181;}
+#gallery-div ul li a:hover		{text-decoration: underline; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #A2A2A2;}
+#gallery-div ul li a:active		{text-decoration: none; font-family: Helvetica, Arial; font-size: 12px; font-weight: bold; color: #818181;}
+
+.thumb_gallery					{list-style-type: none; margin: 20px 0 0 0; padding: 0;}
+.thumb_gallery li				{float: left; padding: 0 10px 0 0;}
+.thumb_gallery li a	img			{border: 1px solid #3394BD;}
+/* Einde opmaak gallerij albums */
+
+/* Opmaak register event */
+.event_register					{margin: 50px 0 0 0; padding: 30px 10px 10px 10px; width: 900px; background-color: #F1F8F9; 
+								-moz-border-radius: 10px; 
+								-webkit-border-radius: 10px;
+								border-radius: 10px;				/* Ronde randjes voor IE */
+								behavior: url(border-radius.htc);	/* Ronde randjes voor IE */
+								border: 2px solid #B2CCCC;}
+
+.event_register .submit			{margin-left: 155px; margin-top: 10px; width: 32px; height: 25px; border: none; background:url('../imgs/send.png') no-repeat left top;}
+
+.event_register .label			{font-family: Helvetica, Arial; font-size: 12px; color: #A0A0A0; display: block; float: left; width: 150px; text-align: right; margin-right: 5px;}
+
+.event_register .form-row		{padding: 5px 0; clear: both; width: 520px;}
+
+.event_register label.error		{width: 250px; display: block; float: left; font-family: Helvetica, Arial; font-size: 12px; color: #FF9598; padding-left: 10px;}
+
+.event_register input[type=text], select, textarea {width: 250px; float: left;}
+
+.radio-row						{width: 150px; float: left;}
+
+.event_register textarea		{height: 70px;}
+.checkdoos						{float: left;}
+.voorwaarden					{text-decoration: underline; color: #116B97;}
+/* Einde opmaak register event */

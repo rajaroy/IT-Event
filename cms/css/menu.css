@@ -1,0 +1,6 @@
+.menu				{list-style-type: none; float: right;}
+.menu li			{font-family: Lucida Fax, Arial; font-size: 14px; font-weight: bold; color: #EAEAEA; float: left; padding: 0 10px 0 0;}
+.menu li a:link		{text-decoration: none; font-family: Lucida Fax, Arial; font-size: 14px; font-weight: bold; color: #EAEAEA;}
+.menu li a:visited	{text-decoration: none; font-family: Lucida Fax, Arial; font-size: 14px; font-weight: bold; color: #EAEAEA;}
+.menu li a:hover	{text-decoration: underline; font-family: Lucida Fax, Arial; font-size: 14px; font-weight: bold; color: #EAEAEA;}
+.menu li a:active	{text-decoration: none; font-family: Lucida Fax, Arial; font-size: 14px; font-weight: bold; color: #EAEAEA;}
